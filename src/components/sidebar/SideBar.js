@@ -8,12 +8,12 @@ const SideBar: React.FC < SidebarProps > = () => {
         setMobileMenuOpen(!mobileMenuOpen);
     };
     return (
-        <div className="container">
+        <div>
             <nav>
-                <div className="hidden md:h-screen md:w-64 md:bg-gray-800 md:flex md:flex-col md:text-white md:justify-center md:items-center md:text-center md:pt-7">
+                <div className="hidden mt-0 md:h-screen md:w-64 md:bg-gray-800 md:flex md:flex-col md:text-white md:justify-center md:text-center md:pt-7">
                     <div>
-                        <h1 className="mt-10">
-                            <Link to="/contact">Contact</Link>
+                        <h1 className="">
+                            <Link to="/home">Contact</Link>
                         </h1>
                     </div>
                     <div>
@@ -50,8 +50,9 @@ const SideBar: React.FC < SidebarProps > = () => {
                     )
                 } </nav>
             </div>
-
         </div>
+
+
     );
 };
 
