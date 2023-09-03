@@ -2,17 +2,17 @@ import React from 'react';
 import SideBar from '../components/sidebar/SideBar';
 import Form from '../components/form/Form';
 
-const EditContact: React.FC = () => {
+const CreateContact: React.FC = () => {
   return (
     <div className='flex flex-col md:flex-row'>
       <div>
         <SideBar />
       </div>
       <div className='flex justify-center '>
-        <Form type={"edit"} />
+        <Form  data={'Create'}/>
       </div>
     </div>
   );
 };
 
-export default EditContact;
+export default CreateContact;
