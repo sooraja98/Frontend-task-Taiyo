@@ -16,7 +16,7 @@ const SideBar: React.FC<SidebarProps> = () => {
   return (
     <div>
       <nav>
-        <div className="hidden mt-0 md:h-screen md:w-64 md:bg-gray-800 md:flex md:flex-col md:text-white md:justify-center md:text-center md:pt-7">
+        <div className="hidden mt-0 md:min-h-screen md:w-64 md:bg-gray-800 md:flex md:flex-col md:text-white md:justify-center md:text-center md:pt-7">
           <div>
             <h1 className="">
               <Link to="/">Contact</Link>
@@ -24,7 +24,7 @@ const SideBar: React.FC<SidebarProps> = () => {
           </div>
           <div>
             <h1 className="mt-10">
-              <Link to="/chart-and-map">Chart and Map</Link>
+              <Link to="/chart">Chart and Map</Link>
             </h1>
           </div>
         </div>
@@ -56,7 +56,7 @@ const SideBar: React.FC<SidebarProps> = () => {
                 <Link to="/">Contact</Link>
               </div>
               <div className="border-b-2 hover:bg-gray-500 rounded-sm p-1">
-                <Link to="/chart-and-map">Chart and Map</Link>
+                <Link to="/chart">Chart and Map</Link>
               </div>
             </div>
           )}
